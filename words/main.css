@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+a {
+	display: inline-block;
+	color: #000;
+}
+/*跳转页面提示框*/
+p.transit,p.wraning {
+	display: block;
+	width: 700px;
+	height: 200px;
+	margin: 20px auto;
+	background-color: #eff;
+	font-size: 40px;
+	text-align: center;
+	line-height: 200px;
+}
+p.transit {
+    color: #1f1;
+}
+p.warning {
+	color: #f00;
+}
+/*留言框*/
+form.form {
+	display: block;
+	width: 350px;
+	height: 350px;
+	margin: 80px auto;
+	background-color: #eee;
+	text-align: center;
+}
+form.form input.input-tit {
+	width: 200px;
+	height: 25px;
+	margin-top: 10px;
+	border: 0;
+	border-bottom: 1px solid #011;
+	outline: none;
+	background-color: #eee;
+	font-size: 20px;
+	line-height: 25px;
+} 
+form.form textarea {
+	width: 250px;
+	height: 250px;
+	margin-top: 10px;
+    outline: none;
+    background-color: #fef;
+    font-size: 25px;
+}
+input.input-btn {
+	width: 250px;
+	height: 30px;
+	margin-top: 10px;
+	border: 0;
+	border-radius: 22.5px; 
+	background-color: #02b5de;
+	font-size: 20px;
+}
+/*布局*/
+div#header {
+	width: 1080px;
+	height: 150px;
+	margin: 0 auto;
+	background-color: #f99;
+	font-size: 50px;
+	text-align: center;
+	line-height: 150px; 
+}
+div#content {
+	width: 1180px;
+	margin: 0 auto;
+}
+div.warp-form,div.warp-words {
+	display: block;
+	float: left;
+	margin-left: 50px;
+}
+div.warp-words {
+	width: 680px;
+	margin-top: 20px; 
+	background-color: #ebebeb;
+}
+/*留言内容*/
+div.words-con {
+	display: block;
+	width: 650px;
+	margin: 10px auto;  
+	background-color: #fff;
+}
+p.words-tit {
+	display: inline-block;
+	color: #000;
+	font-size: 20px;
+	text-align: left;
+}
+p.words-time {
+	display: inline-block;
+	float: right; 
+	color: #000;
+	font-size: 12px;
+}
+p.words-txt {
+	font-size: 30px;
+}
+a.btn-del,a.btn-upd {
+	width: 230px;
+	height: 30px;
+	margin-left: 63px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 22.5px; 
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+}
+a.btn-del {
+    background-color: #f11;
+}
+a.btn-upd {
+	background-color: #11f;
+}
